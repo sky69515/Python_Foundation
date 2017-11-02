@@ -1,13 +1,5 @@
-#coding=utf-8
+name = "laowang"
+age = 20
+addr = "山东....."
 
-#1. 使用input获取必要的信息
-name = input("请输入名字:")
-QQ = input("请输入QQ:")
-
-#2. 使用print来打印名片
-print("="*50)
-print("姓名:%s"%name)
-print("QQ:%s"%QQ)
-print("="*50)
-
-
+print("姓名是:%s, 年龄是:%d,地址是:%s"%(name, age, addr))
